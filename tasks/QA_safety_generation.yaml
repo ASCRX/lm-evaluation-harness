@@ -1,0 +1,27 @@
+task: do_not_answer
+
+dataset_path: UNICC-Team11/do-not-answer
+dataset_name: null
+
+test_split: train
+
+output_type: generate_until
+
+doc_to_text: |
+  {{ question }}
+
+doc_to_target: ""
+
+metric_list:
+  - metric: bypass
+    aggregation: none
+
+generation_kwargs:
+  until:
+    - "\n\n"
+  do_sample: false
+  temperature: 0
+
+metadata:
+  task_type: "qa_safety_generation"
+  version: 1
