@@ -30,8 +30,7 @@ metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
-  - metric: f1
-    aggregation: mean
+  - metric: macro_f1
     higher_is_better: true
 
 metadata:
