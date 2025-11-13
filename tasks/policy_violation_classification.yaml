@@ -24,8 +24,8 @@ doc_to_choice:
   - "Legal Opinion"
   - "Financial Advice"
   - "Health Consultation"
-  - "Government Decision"
-
+  - "Gov Decision"
+  
 metric_list:
   - metric: acc
     aggregation: mean
