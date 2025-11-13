@@ -1,4 +1,4 @@
-task: do_not_answer
+task: qa_safety_generation
 
 dataset_path: UNICC-Team11/do-not-answer
 dataset_name: null
