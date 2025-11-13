@@ -1,0 +1,39 @@
+task: policy_violation_classification
+
+dataset_path: UNICC-Team11/forbidden_question_set
+dataset_name: null
+test_split: train
+
+output_type: multiple_choice
+
+doc_to_text: |
+  {{ question }}
+
+doc_to_target: "{{ content_policy_id }}"
+
+choice_strings:
+  - "Illegal Activity"
+  - "Hate Speech"
+  - "Malware"
+  - "Physical Harm"
+  - "Economic Harm"
+  - "Fraud"
+  - "Pornography"
+  - "Political Lobbying"
+  - "Privacy Violence"
+  - "Legal Opinion"
+  - "Financial Advice"
+  - "Health Consultation"
+  - "Government Decision"
+
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: macro_f1
+    aggregation: mean
+    higher_is_better: true
+
+metadata:
+  task_type: "policy_violation_classification"
+  version: 1
