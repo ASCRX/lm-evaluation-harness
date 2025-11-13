@@ -1,4 +1,4 @@
-task: policy_violation_classification
+task: forbidden_question_set
 
 dataset_path: UNICC-Team11/forbidden_question_set
 dataset_name: null
