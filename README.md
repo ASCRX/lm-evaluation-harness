@@ -1,4 +1,4 @@
-# Setting Up the Environment 节套起件
+# Setting Up the Environment
 
 ## Clone the correct repository
 
