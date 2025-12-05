@@ -89,24 +89,3 @@ Evaluation results will be saved in:
 
 ---
 
-# Model Information Template
-
-For leaderboard metadata submission:
-
-```python
-"ilsp/Meltemi-7B-Instruct-v1.5": {
-    # "Architecture": "",
-    "Hub License": "apache-2.0",
-    "Hub ❤️": 17,
-    "#Params (B)": 7.48,
-    "Available on the hub": True,
-    "MoE": False,
-    # "generation": 0,
-    "Base Model": "ilsp/Meltemi-7B-v1.5",
-    "Type": "chat models (RLHF, DPO, IFT, ...)",
-    "T": "chat",
-    "full_model_name": "<a target='_blank' href='https://huggingface.co/ilsp/Meltemi-7B-Instruct-v1.5'>Meltemi-7B-Instruct-v1.5</a>"
-    # "co2_kg_per_s": 0
-}
-```
-*Comment out unavailable fields.*
