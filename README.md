@@ -10,8 +10,8 @@ cd lm-evaluation-harness
 ## Create and activate a new conda environment
 
 ```bash
-conda create -n finben python=3.12 -y
-conda activate finben
+conda create -n lm-eval python=3.12 -y
+conda activate lm-eval
 ```
 
 ## Install the required dependencies
