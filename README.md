@@ -30,7 +30,6 @@ Set your Hugging Face token as an environment variable:
 ```bash
 export HFWTOKEN="your_hf_token"
 ```
-Our hugging face page: https://huggingface.co/UNICC-Team11
 ---
 
 # Model Evaluation
@@ -76,6 +75,7 @@ Evaluation results will be saved in:
 
 **For publishing:** Upload results manually or use automated push scripts in the evaluation harness.
 
+**Our hugging face page:** https://huggingface.co/UNICC-Team11
 ---
 
 # Troubleshooting
